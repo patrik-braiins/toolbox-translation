@@ -619,207 +619,207 @@
   },
   "persian": {
     "cli": {
-      "description": "Provides tools for managing mining devices running Braiins OS[+]",
+      "description": "ابزاری برای مدیریت دستگاه‌های ماینری که از فریم‌ور Braiins OS[+] استفاده می‌کنند",
       "label": {
-        "subcommands": "subcommands",
-        "subcommands_description": "Braiins OS tools in the toolbox"
+        "subcommands": "دستورات زیرمجموعه",
+        "subcommands_description": "ابزار Braiins OS در تولباکس"
       },
       "help": {
-        "version": "Show program's version number and exit",
-        "verbose": "Increase output verbosity",
-        "subcommands": "Choose one of the tools and run with --help to retrieve additional info how to use it"
+        "version": "نمایش نسخه برنامه و خروج",
+        "verbose": "افزایش خروجی بیشتر",
+        "subcommands": "یکی از ابزار را انتخاب کنید و با --help اطلاعات بیشتری از نحوه استفاده آنها کسب کنید"
       }
     },
 
 
     "install": {
-      "description": "Install Braiins OS[+] onto a mining machine",
+      "description": "نصب فریم‌ور Braiins OS[+] روی یک دستگاه",
       "label": {
-        "hosts": "Miner(s)",
-        "default": "Latest Stable release (recommended)",
-        "open-source": "Open-Source version (without auto-tuning)",
-        "nightly": "Nightly version",
-        "feeds-url": "Custom Feeds-URL",
-        "fw-version": "Firmware version",
-        "backup": "Backup",
-        "no-auto-upgrade": "No Auto-Upgrade",
-        "no-nand-backup": "No NAND-backup",
-        "pool-user": "Set Pool user",
-        "psu-power-limit": "Set Power limit",
-        "no-keep-network": "Don't migrate network settings",
-        "no-keep-pools": "Don't migrate pools settings",
-        "no-keep-hostname": "Don't keep hostname",
-        "keep-hostname": "Keep hostname",
-        "no-wait": "No wait",
-        "dry-run": "Dry run",
+        "hosts": "ماینر(ها)",
+        "default": "آخرین نسخه پایدار (پیشنهاد شده)",
+        "open-source": "نسخه متن‌باز (بدون اتوتیونیگ)",
+        "nightly": "نسخه شبانه",
+        "feeds-url": "آدرس‌های فید سفارشی",
+        "fw-version": "نسخه فریم‌ور",
+        "backup": "پشتیبان",
+        "no-auto-upgrade": "بدون ارتقا خودکار",
+        "no-nand-backup": "بدون پشتیبان‌گیری از NAND",
+        "pool-user": "تنظیم نام‌کاربری استخر",
+        "psu-power-limit": "تنظیم پاور لیمیت",
+        "no-keep-network": "تنظیمات شبکه را انتقال نده",
+        "no-keep-pools": "تنظیمات استخر را انتقال نده",
+        "no-keep-hostname": "نام میزبان را نگه ندار",
+        "keep-hostname": "نام میزبان را نگه دار",
+        "no-wait": "بدون انتظار",
+        "dry-run": "اجرای آزمایشی",
         "post-upgrade": "Post-upgrade",
-        "bos-mgmt-id": "Farm-ID",
-        "password": "Password"
+        "bos-mgmt-id": "شناسه Farm-ID",
+        "password": "رمز عبور"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "default": "Default setting",
-        "open-source": "Use for installation of the Open-Source version",
-        "nightly": "Use for installation of the Nightly version",
-        "feeds-url": "Override default feeds server URL",
-        "fw-version": "Select specific firmware version",
-        "backup": "Backup miner before the installation (NAND and configuration)",
-        "no-auto-upgrade": "Turn off Auto-Upgrade (not recommended)",
-        "no-nand-backup": "Skip full NAND backup (config is still being backed up)",
-        "pool-user": "Set the username and workername for Slush Pool",
-        "psu-power-limit": "Set PSU power limit (in Watts)",
-        "no-keep-network": "Do not keep miner network configuration (use DHCP)",
-        "no-keep-pools": "Do not keep miner pool configuration",
-        "no-keep-hostname": "Do not keep miner hostname and generate new one based on MAC",
-        "keep-hostname": "Keep miner hostname",
-        "no-wait": "Do not wait until system is fully upgraded and rebooted",
-        "dry-run": "Do all upgrade steps without the actual upgrade",
-        "post-upgrade": "Path to directory with stage3.sh script",
-        "bos-mgmt-id": "Set Braiins OS+ Manager identifier",
-        "password": "Administration password"
+        "hosts": "نام میزبان (آی‌پی) یا مسیر به فایلی که لیست آی‌پی ها است",
+        "default": "تنظیمات پیشفرض",
+        "open-source": "استفاده برای نصب نسخه متن باز",
+        "nightly": "استفاده برای نصب نسخه های شبانه",
+        "feeds-url": "بازنویسی آدرس‌های فیدسرور پیشفرض",
+        "fw-version": "انتخاب نسخه خاص مورد نظر",
+        "backup": "تهیه نسخه پشتیبان قبل از عملیات نصب (از حافظه NAND و تنظیمات)",
+        "no-auto-upgrade": "خاموش کردن بروز رسانی خودکار (توصیه نمیشود)",
+        "no-nand-backup": "عدم پشتیبانگیری از حافظه NAND (همچنان از تنظیمات پشتیبان تهیه میشود)",
+        "pool-user": "تنظیمات نام کاربری و نام ورکر استخر",
+        "psu-power-limit": "تنظیم توان پاور لیمیت (به وات)",
+        "no-keep-network": "تنظیمات شبکه را نگه نمی دارد (از dhcp استفاده میکند)",
+        "no-keep-pools": "تنظیمات استخر را نگهداری نمی‌کند",
+        "no-keep-hostname": "hostname را نگهداری نمی‌کند و براساس MAC یک hostname جدید ایجاد میکند",
+        "keep-hostname": "hostname نگه میدارد",
+        "no-wait": "صبر نکنید تا سیستم به طور کامل ارتقا یابد و راه اندازی مجدد شود",
+        "dry-run": "آزمایش تمامی مراحل آپگرید بدون اجرای واقعی آنها",
+        "post-upgrade": "مسیردهی به دایرکتوری اسکریپت stage3.sh",
+        "bos-mgmt-id": "تنظیم شناسه Braiins OS+ Manager",
+        "password": "رمز عبور مدیریت"
       }
     },
 
 
     "uninstall": {
-      "description": "Uninstall Braiins OS[+] from the miner(s)",
+      "description": "حذف Braiins OS[+] از روی دستگاه‌های ماینر",
       "label": {
-        "hosts": "Miner(s)",
-        "backup_path": "Backup Path",
-        "password": "Password",
-        "default": "Default stock firmware",
-        "feeds-url": "Custom Feeds-URL",
-        "nand-restore": "Restore previous NAND backup (not recommended)"
+        "hosts": "ماینر(ها)",
+        "backup_path": "مسیر پشتیبان",
+        "password": "رمز عبور",
+        "default": "فریم‌ور کارخانه پیشفرض",
+        "feeds-url": "آدرس‌های فید سفارشی",
+        "nand-restore": "بازگردانی نسخه پشتیبانی تهیه شده (توصیه نمی‌شود)"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "backup_path": "Path to a directory or tgz file with data for miner restore",
-        "password": "Administration password",
-        "default": "Default setting",
-        "feeds-url": "Override default feeds server URL",
-        "nand-restore": "Use full NAND restore from previous backup"
+        "hosts": "نام میزبان (آی‌پی) یا مسیر به فایلی که لیست آی‌پی ها است",
+        "backup_path": "مسیردهی به پوشه یا فایل tgz برای بازگردانی فریم‌ور",
+        "password": "رمز عبور مدیریت",
+        "default": "تنظیمات پیشفرض",
+        "feeds-url": "بازنویسی فیدسرورهای پیشفرض",
+        "nand-restore": "استفاده از پشتیبان کامل NAND تهیه شده قبلی"
       }
     },
 
 
     "update": {
-      "description": "Update system / system package on miners running Braiins OS[+]",
+      "description": "بروزرسانی سیستم / پیکج سیستم روی دستگاه‌هایی که از فریم‌ور Braiins OS[+] استفاده میکنند",
       "label": {
-        "hosts": "Miner(s)",
-        "package": "Package",
-        "password": "Password",
-        "ignore": "Ignore non-responsive miners",
-        "bos-mgmt-id": "Farm-ID"
+        "hosts": "ماینر(ها)",
+        "package": "پکیج",
+        "password": "رمز عبور",
+        "ignore": "نادیده گرفتن ماینرهای بدون پاسخ",
+        "bos-mgmt-id": "شناسه Farm-ID"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "package": "Package name for update (select 'firmware' for firmware update",
-        "password": "Administration password",
-        "ignore": "Do not halt on errors",
-        "bos-mgmt-id": "Update Braiins OS+ Manager identifier"
+        "hosts": "نام میزبان (آی‌پی) یا مسیر به فایلی که لیست آی‌پی ها است",
+        "package": "نام پکیج برای بروز رسانی (نام 'firmware' را برای بروز رسانی فریم‌ور مشخص میکند)",
+        "password": "رمز عبور مدیریت",
+        "ignore": "هنگام مواجه با خطا گیر نکن",
+        "bos-mgmt-id": "بروز رسانی شناسه Braiins OS+ Manager"
       }
     },
 
 
     "config": {
-      "description": "Configure mining machines running Braiins OS[+]",
+      "description": "تنظیم دستکاه‌های ماینر برای Braiins OS[+]",
       "label": {
-        "action": "Action",
-        "table": "List of miners",
-        "user": "Username",
-        "password": "Password",
-        "change-password": "Change Password",
-        "check": "Dry run",
-        "ignore": "Ignore"
+        "action": "عملیات",
+        "table": "لیست ماینرها",
+        "user": "نام کاربری",
+        "password": "رمز عبور",
+        "change-password": "تغییر رمزعبور",
+        "check": "اجرای آزمایشی",
+        "ignore": "نادیده گرفتن"
       },
       "help": {
-        "action": "Load, Save, Apply or Save & Apply",
-        "table": "Path to table file in CSV format",
-        "user": "Administration username",
-        "password": "Administration password",
-        "change-password": "Allow password change",
-        "check": "Do all configuration steps without applying the configuration",
-        "ignore": "Do not halt on errors"
+        "action": "بارگیری, ذخیره, اعمال و ذخیره و اعمال",
+        "table": "مسیردهی به فایل با قالب CSV",
+        "user": "نام کاربری مدیریت",
+        "password": "رمز عبور مدیریت",
+        "change-password": "اجازه برای تغییر رمز عبور",
+        "check": "تمامی مراحل تغییر در تنظیمات را بررسی میکند بدون اینکه آنها را اعمال کند",
+        "ignore": "هنگام مواجه با خطا گیر نکن"
       }
     },
 
 
     "command": {
-      "description": "Run commands on selected miners. Use start/stop/restart for miner control or arbitrary shell commands.",
+      "description": "دستورات را در ماینرهای انتخاب شده اجرا کنید. برای کنترل ماینر از start/stop/restart  یا دستورات shell دلخواه از استفاده کنید",
       "label": {
-        "hosts": "Miner(s)",
-        "command": "Command",
-        "auto": "Auto-select protocol",
-        "legacy": "Legacy mode",
-        "no-legacy": "No legacy mode",
-        "output": "Show output",
-        "output-hostname": "Show hostname output",
-        "password": "Password",
-        "jobs": "Jobs"
+        "hosts": "ماینر(ها)",
+        "command": "دستور",
+        "auto": "انتخاب خودکار پروتکل",
+        "legacy": "حالت ارث‌بری",
+        "no-legacy": "بدون حالت ارث‌بری",
+        "output": "نمایش خروجی",
+        "output-hostname": "نمایش Hostname خروجی",
+        "password": "رمز عبور",
+        "jobs": "وظایف"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "command": "Command to run ('start', 'stop', 'restart' or shell command)",
-        "auto": "Use SSH if RPC is not available",
-        "legacy": "Use SSH",
-        "no-legacy": "Use RPC",
-        "output": "Capture and print remote output",
-        "output-hostname": "Capture and print hostname output",
-        "password": "Administration password",
-        "jobs": "Number of concurrent jobs"
+        "hosts": "نام میزبان (آی‌پی) یا مسیر به فایلی که لیست آی‌پی ها است",
+        "command": "دستورات برای اجرا ('start', 'stop', 'restart' or shell command)",
+        "auto": "استفاده از SSH اگر RPC در دسترس نبود",
+        "legacy": "استفاده از SSH",
+        "no-legacy": "استفاده از RPC",
+        "output": "خروجی دستور را نمایش بده",
+        "output-hostname": "خروجی Hostname را نمایش بده",
+        "password": "رمز عبور مدیریت",
+        "jobs": "تعداد وظایف همزمان"
       }
     },
 
 
     "unlock": {
-      "description": "Unlocks SSH access for Antminers S9",
+      "description": "غیرفعال کردن قفل SSH برای Antminers S9",
       "label": {
-        "hosts": "Miner(s)",
-        "upgrade_path": "Custom upgrade path",
-        "username": "Username",
-        "password": "Password",
-        "port": "Port",
-        "ssl": "Use SSL"
+        "hosts": "ماینر‌(ها)",
+        "upgrade_path": "مسیر ارتقا سفارشی",
+        "username": "نام کاربری",
+        "password": "رمز عبور",
+        "port": "پورت",
+        "ssl": "استفاده از SSL"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "upgrade_path": "Custom path to upgrade file with payload for miner unlock",
-        "username": "Username for web interface",
-        "password": "Password for web interface",
-        "port": "Port of antminer web interface to use for unlocking (default - 80)",
-        "ssl": "Check to use SSL protocol"
+        "hosts": "نام میزبان (آی‌پی) یا مسیر به فایلی که لیست آی‌پی ها است",
+        "upgrade_path": "مسیردهی سفارشی برای فایل بروزرسانی همراه payload برای غیرفعال کردن قفل ماینر",
+        "username": "نام کاربری رابط وب",
+        "password": "رمز عبور رابط وب",
+        "port": "پورت رابط وب Antminer برای استفاده غیرفعال کردن قفل (پورت ۸۰)",
+        "ssl": "بررسی برای استفاده از پروتکل SSL"
       }
     },
 
 
     "scan": {
-      "description": "Actively scan provided range of address for mining machines (including machines running factory firmware)",
+      "description": "محدوده آدرس ارائه شده برای ماشین های استخراج را به طور فعال اسکن کنید (از جمله ماشین آلاتی که سیستم عامل کارخانه را اجرا می کنند)محدوده آدرس ارائه شده برای دستگاه‌های ماینر را به طور فعال اسکن می‌کند (از جمله دستگاه‌های ماینری که فریم‌ور کارخانه را اجرا می کنند)",
       "label": {
-        "hostname": "IP range",
-        "passwords": "Passwords",
-        "output": "Save output",
-        "jobs": "Jobs",
-        "verbose": "Verbose"
+        "hostname": "محدوده IP",
+        "passwords": "رمز‌های عبور",
+        "output": "ذخیره خروجی",
+        "jobs": "وظایف",
+        "verbose": "نمایش جزئیات"
       },
       "help": {
-        "hostname": "Subnet range or IP addresses used for scanning\nUse 10.10.10.0/24 for 10.10.10.0 - 10.10.10.255 range\nUse 10.10.0.0/16 for 10.10.0.0 - 10.10.255.255 range\nUse 10.0.0.0/8 for 10.0.0.0 - 10.255.255.255 range\nUse IP addresses separated with space for scanning only the specified addresses (e.g., 10.10.10.1 10.10.10.2)",
-        "passwords": "Path to file with list of possible passwords for connection",
-        "output": "Save list of found IP addresses to a file",
-        "jobs": "Number of concurrent jobs to scan network",
-        "verbose": "Report networking errors"
+        "hostname": "محدوده ساب‌نت یا آدرس های IP مورد استفاده برای اسکن دامنه \n 10.10.10.0/24 برای 10.10.10.0 - 10.10.10.255 محدوده \nاستفاده از 10.10.0.0/16 برای 10.10.0.0 - 10.10.255.255 محدوده \n استفاده از 10.0.0.0/8 برای 10.0.0.0 - 10.255.255.255 محدوده \nاستفاده از آدرس‌های آی پی با یک فاصله برای اسکن تنها آدرس های مشخص (مثال: 10.10.10.1 10.10.10.2)",
+        "passwords": "مسیردهی برای فایل با لیستی از رمز‌های عبور ممکن برای اتصال",
+        "output": "ذخیره لیست آی پی های پیدا شده در یک فایل",
+        "jobs": "تعداد وظایف همزمان برای یافتن آی پی‌‌ها",
+        "verbose": "گزارش خطاهای شبکه"
       }
     },
 
 
     "listen": {
-      "description": "Listen for incoming broadcast from mining machines (including machines running factory firmware)",
+      "description": "گوش دادن به داده‌های پخش شده توسط دستگاه‌های ماینر (از جمله ماینرها با فریم‌ور کارخانه)",
       "label": {
-        "output": "Save output",
-        "format": "Format"
+        "output": "ذخیره خروجی",
+        "format": "قالب"
       },
       "help": {
-        "output": "Save list of found IP addresses to file",
-        "format": "Change default formatting string for device information"
+        "output": "لیست آی‌پی های پیدا شده را در یک فایل ذخیره کن",
+        "format": "تغییر نمایش فرمت پیشفرض برای اطلاعات دستگاه"
       }
     }
   },
