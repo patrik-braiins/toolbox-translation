@@ -413,207 +413,207 @@
   },
   "spanish": {
     "cli": {
-      "description": "Provides tools for managing mining devices running Braiins OS[+]",
+      "description": "Provee herramientas para gestionar dispositivos mineros corriendo Braiins OS[+]",
       "label": {
-        "subcommands": "subcommands",
-        "subcommands_description": "Braiins OS tools in the toolbox"
+        "subcommands": "subcomandos",
+        "subcommands_description": "Herramientas Braiins OS en la caja de herramientas"
       },
       "help": {
-        "version": "Show program's version number and exit",
-        "verbose": "Increase output verbosity",
-        "subcommands": "Choose one of the tools and run with --help to retrieve additional info how to use it"
+        "version": "Mostrar número de versión y salir",
+        "verbose": "Aumentar la verbosidad de la salida",
+        "subcommands": "Escoja una de las herramientas y ejecute con --help para obtener información adicional de como se usa"
       }
     },
 
 
     "install": {
-      "description": "Install Braiins OS[+] onto a mining machine",
+      "description": "Instalar Braiins OS[+] en una máquina minera",
       "label": {
-        "hosts": "Miner(s)",
-        "default": "Latest Stable release (recommended)",
-        "open-source": "Open-Source version (without auto-tuning)",
-        "nightly": "Nightly version",
-        "feeds-url": "Custom Feeds-URL",
-        "fw-version": "Firmware version",
-        "backup": "Backup",
-        "no-auto-upgrade": "No Auto-Upgrade",
-        "no-nand-backup": "No NAND-backup",
-        "pool-user": "Set Pool user",
-        "psu-power-limit": "Set Power limit",
-        "no-keep-network": "Don't migrate network settings",
-        "no-keep-pools": "Don't migrate pools settings",
-        "no-keep-hostname": "Don't keep hostname",
-        "keep-hostname": "Keep hostname",
-        "no-wait": "No wait",
-        "dry-run": "Dry run",
-        "post-upgrade": "Post-upgrade",
-        "bos-mgmt-id": "Farm-ID",
-        "password": "Password"
+        "hosts": "Minero(s)",
+        "default": "Último lanzamiento Estable (recomendado)",
+        "open-source": "Versión Código-Abierto (sin auto-ajuste)",
+        "nightly": "Versión Nocturna",
+        "feeds-url": "Fuente-URL personalizada",
+        "fw-version": "Versión firmware",
+        "backup": "Respaldo",
+        "no-auto-upgrade": "No Auto-Actualizar",
+        "no-nand-backup": "No respaldar-NAND",
+        "pool-user": "Poner usuario Pool",
+        "psu-power-limit": "Poner límite de energía",
+        "no-keep-network": "No migrar configuración de red",
+        "no-keep-pools": "No migrar configuración de pools",
+        "no-keep-hostname": "No mantener nombre del host",
+        "keep-hostname": "Mantener nombre del host",
+        "no-wait": "No esperar",
+        "dry-run": "Simulacro",
+        "post-upgrade": "Pos-actualizar",
+        "bos-mgmt-id": "ID-Granja",
+        "password": "Contraseña"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "default": "Default setting",
-        "open-source": "Use for installation of the Open-Source version",
-        "nightly": "Use for installation of the Nightly version",
-        "feeds-url": "Override default feeds server URL",
-        "fw-version": "Select specific firmware version",
-        "backup": "Backup miner before the installation (NAND and configuration)",
-        "no-auto-upgrade": "Turn off Auto-Upgrade (not recommended)",
-        "no-nand-backup": "Skip full NAND backup (config is still being backed up)",
-        "pool-user": "Set the username and workername for Slush Pool",
-        "psu-power-limit": "Set PSU power limit (in Watts)",
-        "no-keep-network": "Do not keep miner network configuration (use DHCP)",
-        "no-keep-pools": "Do not keep miner pool configuration",
-        "no-keep-hostname": "Do not keep miner hostname and generate new one based on MAC",
-        "keep-hostname": "Keep miner hostname",
-        "no-wait": "Do not wait until system is fully upgraded and rebooted",
-        "dry-run": "Do all upgrade steps without the actual upgrade",
-        "post-upgrade": "Path to directory with stage3.sh script",
-        "bos-mgmt-id": "Set Braiins OS+ Manager identifier",
-        "password": "Administration password"
+        "hosts": "Nombre host (dirección IP) o ruta al archivo con la lista de mineros",
+        "default": "Configuración predeterminada",
+        "open-source": "Use para la instalación de la versión de Código-Abierto",
+        "nightly": "Use para la instalación de la versión Nocturna",
+        "feeds-url": "Invalidar URL predeterminada del servidor fuente",
+        "fw-version": "Elegir una versión específica de firmware",
+        "backup": "Respalda el minero antes de instalar (NAND y configuración)",
+        "no-auto-upgrade": "Desactiva Auto-Actualizar (no recomendado)",
+        "no-nand-backup": "Omite respaldo completo de NAND (aun respalda la configuración)",
+        "pool-user": "Pone el nombre de usuario y de equipo para Slush Pool",
+        "psu-power-limit": "Pone límite de energía (en Vatios) para la fuente",
+        "no-keep-network": "No mantiene la configuración de red (usa DHCP)",
+        "no-keep-pools": "No mantiene la configuración del pool",
+        "no-keep-hostname": "No mantiene nombre host del minero y genera el nuevo basado en MAC",
+        "keep-hostname": "Mantiene nombre host del minero",
+        "no-wait": "No espera hasta que el sistema esté completamente actualizado y reiniciado",
+        "dry-run": "Hace todos los pasos de actualización sin hacer la propia actualización",
+        "post-upgrade": "Ruta al directorio con el script stage3.sh",
+        "bos-mgmt-id": "Pone el identificador para Braiins OS+ Manager",
+        "password": "Contraseña administrativa"
       }
     },
 
 
     "uninstall": {
-      "description": "Uninstall Braiins OS[+] from the miner(s)",
+      "description": "Desinstalar Braiins OS[+] del(os) minero(s)",
       "label": {
-        "hosts": "Miner(s)",
-        "backup_path": "Backup Path",
-        "password": "Password",
-        "default": "Default stock firmware",
-        "feeds-url": "Custom Feeds-URL",
-        "nand-restore": "Restore previous NAND backup (not recommended)"
+        "hosts": "Minero(s)",
+        "backup_path": "Ruta del Respaldo",
+        "password": "Contraseña",
+        "default": "Firmware de serie predeterminado",
+        "feeds-url": "Fuentes-URL personalizada",
+        "nand-restore": "Re-establecer respaldo NAND previo (no recomendado)"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "backup_path": "Path to a directory or tgz file with data for miner restore",
-        "password": "Administration password",
-        "default": "Default setting",
-        "feeds-url": "Override default feeds server URL",
-        "nand-restore": "Use full NAND restore from previous backup"
+        "hosts": "Nombre host (dirección IP) o ruta al archivo con la lista de mineros",
+        "backup_path": "Ruta a un directorio o archivo tgz con datos para restaurar el minero",
+        "password": "Contraseña administrativa",
+        "default": "Configuración predeterminada",
+        "feeds-url": "Invalidar URL predeterminada del servidor fuente",
+        "nand-restore": "Usar la restauración NAND completa del respaldo previo"
       }
     },
 
 
     "update": {
-      "description": "Update system / system package on miners running Braiins OS[+]",
+      "description": "Actualizar sistema / paquete de sistema en mineros corriendo Braiins OS[+]",
       "label": {
-        "hosts": "Miner(s)",
-        "package": "Package",
-        "password": "Password",
-        "ignore": "Ignore non-responsive miners",
-        "bos-mgmt-id": "Farm-ID"
+        "hosts": "Minero(s)",
+        "package": "Paquete",
+        "password": "Contraseña",
+        "ignore": "Ignorar mineros que no responden",
+        "bos-mgmt-id": "ID-granja"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "package": "Package name for update (select 'firmware' for firmware update",
-        "password": "Administration password",
-        "ignore": "Do not halt on errors",
-        "bos-mgmt-id": "Update Braiins OS+ Manager identifier"
+        "hosts": "Nombre host (dirección IP) o ruta al archivo con la lista de mineros",
+        "package": "Nombre del paquete para la actualización (elija 'firmware' para actualizar el firmware",
+        "password": "Contraseña administrativa",
+        "ignore": "No detener en los errores",
+        "bos-mgmt-id": "Actualizar identificador Braiins OS+ Manager"
       }
     },
 
 
     "config": {
-      "description": "Configure mining machines running Braiins OS[+]",
+      "description": "Configurar máquinas mineras corriendo Braiins OS[+]",
       "label": {
-        "action": "Action",
-        "table": "List of miners",
-        "user": "Username",
-        "password": "Password",
-        "change-password": "Change Password",
-        "check": "Dry run",
-        "ignore": "Ignore"
+        "action": "Acción",
+        "table": "Lista de mineros",
+        "user": "Usuario",
+        "password": "Contraseña",
+        "change-password": "Cambiar Contraseña",
+        "check": "Simulacro",
+        "ignore": "Ignorar"
       },
       "help": {
-        "action": "Load, Save, Apply or Save & Apply",
-        "table": "Path to table file in CSV format",
-        "user": "Administration username",
-        "password": "Administration password",
-        "change-password": "Allow password change",
-        "check": "Do all configuration steps without applying the configuration",
-        "ignore": "Do not halt on errors"
+        "action": "Load, Save, Apply or Save & Apply (Cargar, Guardar, Aplicar o Guardar y Aplicar)",
+        "table": "Ruta al archivo de tabla en formato CSV",
+        "user": "Usuario administrativo",
+        "password": "Contraseña administrativa",
+        "change-password": "Permite cambiar contraseña",
+        "check": "Hacer todos los pasos de configuración sin aplicar la configuración",
+        "ignore": "No detener en los errores"
       }
     },
 
 
     "command": {
-      "description": "Run commands on selected miners. Use start/stop/restart for miner control or arbitrary shell commands.",
+      "description": "Ejecuta comandos en mineros elegidos. Use start/stop/restart para control del minero o comandos shell arbitrarios.",
       "label": {
-        "hosts": "Miner(s)",
-        "command": "Command",
-        "auto": "Auto-select protocol",
-        "legacy": "Legacy mode",
-        "no-legacy": "No legacy mode",
-        "output": "Show output",
-        "output-hostname": "Show hostname output",
-        "password": "Password",
-        "jobs": "Jobs"
+        "hosts": "Minero(s)",
+        "command": "Comando",
+        "auto": "Auto-elije protocolo",
+        "legacy": "Modo heredado",
+        "no-legacy": "Sin modo heredado",
+        "output": "Mostrar la salida",
+        "output-hostname": "Mostrar la salida del host",
+        "password": "Contraseña",
+        "jobs": "Trabajos"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "command": "Command to run ('start', 'stop', 'restart' or shell command)",
-        "auto": "Use SSH if RPC is not available",
-        "legacy": "Use SSH",
-        "no-legacy": "Use RPC",
-        "output": "Capture and print remote output",
-        "output-hostname": "Capture and print hostname output",
-        "password": "Administration password",
-        "jobs": "Number of concurrent jobs"
+        "hosts": "Nombre host (dirección IP) o ruta al archivo con la lista de mineros",
+        "command": "Comando a ejecutar ('start', 'stop', 'restart' o comando shell)",
+        "auto": "Usa SSH si RPC no está disponible",
+        "legacy": "Usa SSH",
+        "no-legacy": "Usa RPC",
+        "output": "Capture e imprime salida remota",
+        "output-hostname": "Captura e imprime salida remota del host",
+        "password": "Contraseña administrativa",
+        "jobs": "Número de trabajos concurrentes"
       }
     },
 
 
     "unlock": {
-      "description": "Unlocks SSH access for Antminers S9",
+      "description": "Desbloquea acceso SSH en los Antminers S9",
       "label": {
-        "hosts": "Miner(s)",
-        "upgrade_path": "Custom upgrade path",
-        "username": "Username",
-        "password": "Password",
-        "port": "Port",
-        "ssl": "Use SSL"
+        "hosts": "Minero(s)",
+        "upgrade_path": "Ruta de actualización personalizada",
+        "username": "Usuario",
+        "password": "Contraseña",
+        "port": "Puerto",
+        "ssl": "Usar SSL"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "upgrade_path": "Custom path to upgrade file with payload for miner unlock",
-        "username": "Username for web interface",
-        "password": "Password for web interface",
-        "port": "Port of antminer web interface to use for unlocking (default - 80)",
-        "ssl": "Check to use SSL protocol"
+        "hosts": "Nombre host (dirección IP) o ruta al archivo con la lista de mineros",
+        "upgrade_path": "Ruta personalizada del archivo de actualización con la carga para desbloquear el minero",
+        "username": "Usuario para la interfaz web",
+        "password": "Contraseña para la interfaz web",
+        "port": "Puerto de la interfaz web a usar para desbloquear (80 - por defecto)",
+        "ssl": "Marque para usar el protocolo SSL"
       }
     },
 
 
     "scan": {
-      "description": "Actively scan provided range of address for mining machines (including machines running factory firmware)",
+      "description": "Escanear activamente el rango provisto de direcciones para máquinas de minería (incluyendo máquinas con firmware de fábrica)",
       "label": {
-        "hostname": "IP range",
-        "passwords": "Passwords",
-        "output": "Save output",
-        "jobs": "Jobs",
-        "verbose": "Verbose"
+        "hostname": "Rango IP",
+        "passwords": "Contraseñas",
+        "output": "Guardar salida",
+        "jobs": "Trabajos",
+        "verbose": "Verbosidad"
       },
       "help": {
-        "hostname": "Subnet range or IP addresses used for scanning\nUse 10.10.10.0/24 for 10.10.10.0 - 10.10.10.255 range\nUse 10.10.0.0/16 for 10.10.0.0 - 10.10.255.255 range\nUse 10.0.0.0/8 for 10.0.0.0 - 10.255.255.255 range\nUse IP addresses separated with space for scanning only the specified addresses (e.g., 10.10.10.1 10.10.10.2)",
-        "passwords": "Path to file with list of possible passwords for connection",
-        "output": "Save list of found IP addresses to a file",
-        "jobs": "Number of concurrent jobs to scan network",
-        "verbose": "Report networking errors"
+        "hostname": "Rango de subred o direcciones IP usadas para escanear\nUse 10.10.10.0/24 para el rango 10.10.10.0 - 10.10.10.255\nUse 10.10.0.0/16 para el rango 10.10.0.0 - 10.10.255.255\nUse 10.0.0.0/8 para el rango 10.0.0.0 - 10.255.255.255\nUse direcciones IP separadas con espacio para escanear solo las direcciones especificadas (ej: 10.10.10.1 10.10.10.2)",
+        "passwords": "Ruta al archivo con la lista de contraseñas posibles para la conexión",
+        "output": "Guardar lista de direcciones IP encontradas a un archivo",
+        "jobs": "Número de trabajos concurrentes para escanear la red",
+        "verbose": "Reportar errores de red"
       }
     },
 
 
     "listen": {
-      "description": "Listen for incoming broadcast from mining machines (including machines running factory firmware)",
+      "description": "Escuchar emisiones entrantes desde las máquinas de minería (incluyendo máquinas corriendo firmware de fábrica)",
       "label": {
-        "output": "Save output",
-        "format": "Format"
+        "output": "Guardar salida",
+        "format": "Formato"
       },
       "help": {
-        "output": "Save list of found IP addresses to file",
-        "format": "Change default formatting string for device information"
+        "output": "Guardar salida de direcciones IP encontradas al archivo",
+        "format": "Cambiar frase de formateo predeterminada para la información de dispositivo"
       }
     }
   },
