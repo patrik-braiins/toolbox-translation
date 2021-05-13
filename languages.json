@@ -825,207 +825,207 @@
   },
   "chinese": {
     "cli": {
-      "description": "Provides tools for managing mining devices running Braiins OS[+]",
+      "description": "提供用于管理运行Braiins OS[+]矿机的工具",
       "label": {
-        "subcommands": "subcommands",
-        "subcommands_description": "Braiins OS tools in the toolbox"
+        "subcommands": "子命令",
+        "subcommands_description": "工具箱中的Braiins OS工具"
       },
       "help": {
-        "version": "Show program's version number and exit",
-        "verbose": "Increase output verbosity",
-        "subcommands": "Choose one of the tools and run with --help to retrieve additional info how to use it"
+        "version": "显示程序的版本号并退出",
+        "verbose": "增加输出的详细程度",
+        "subcommands": "选择其中一种工具并使用--help来获得更多消息信息，以了解如何使用它"
       }
     },
 
 
     "install": {
-      "description": "Install Braiins OS[+] onto a mining machine",
+      "description": "矿机上安装Braiins OS[+]",
       "label": {
-        "hosts": "Miner(s)",
-        "default": "Latest Stable release (recommended)",
-        "open-source": "Open-Source version (without auto-tuning)",
-        "nightly": "Nightly version",
-        "feeds-url": "Custom Feeds-URL",
-        "fw-version": "Firmware version",
-        "backup": "Backup",
-        "no-auto-upgrade": "No Auto-Upgrade",
-        "no-nand-backup": "No NAND-backup",
-        "pool-user": "Set Pool user",
-        "psu-power-limit": "Set Power limit",
-        "no-keep-network": "Don't migrate network settings",
-        "no-keep-pools": "Don't migrate pools settings",
-        "no-keep-hostname": "Don't keep hostname",
-        "keep-hostname": "Keep hostname",
-        "no-wait": "No wait",
-        "dry-run": "Dry run",
-        "post-upgrade": "Post-upgrade",
-        "bos-mgmt-id": "Farm-ID",
-        "password": "Password"
+        "hosts": "矿工",
+        "default": "最新稳定发布（推荐）",
+        "open-source": "开源版本（没有自动调整）",
+        "nightly": "预先发布版",
+        "feeds-url": "自定义更新URL",
+        "fw-version": "固件版本",
+        "backup": "备份",
+        "no-auto-upgrade": "无自动升级",
+        "no-nand-backup": "无NAND备份",
+        "pool-user": "设定矿池用户",
+        "psu-power-limit": "设定功耗",
+        "no-keep-network": "不转移网络设置",
+        "no-keep-pools": "不转移矿池设置",
+        "no-keep-hostname": "不保留矿机用户名",
+        "keep-hostname": "保留矿机用户名",
+        "no-wait": "不等待",
+        "dry-run": "试运行检查",
+        "post-upgrade": "升级后",
+        "bos-mgmt-id": "矿场ID",
+        "password": "密码"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "default": "Default setting",
-        "open-source": "Use for installation of the Open-Source version",
-        "nightly": "Use for installation of the Nightly version",
-        "feeds-url": "Override default feeds server URL",
-        "fw-version": "Select specific firmware version",
-        "backup": "Backup miner before the installation (NAND and configuration)",
-        "no-auto-upgrade": "Turn off Auto-Upgrade (not recommended)",
-        "no-nand-backup": "Skip full NAND backup (config is still being backed up)",
-        "pool-user": "Set the username and workername for Slush Pool",
-        "psu-power-limit": "Set PSU power limit (in Watts)",
-        "no-keep-network": "Do not keep miner network configuration (use DHCP)",
-        "no-keep-pools": "Do not keep miner pool configuration",
-        "no-keep-hostname": "Do not keep miner hostname and generate new one based on MAC",
-        "keep-hostname": "Keep miner hostname",
-        "no-wait": "Do not wait until system is fully upgraded and rebooted",
-        "dry-run": "Do all upgrade steps without the actual upgrade",
-        "post-upgrade": "Path to directory with stage3.sh script",
-        "bos-mgmt-id": "Set Braiins OS+ Manager identifier",
-        "password": "Administration password"
+        "hosts": "矿机用户名（IP地址）或指定矿机主机IP地址列表的文件",
+        "default": "默认设置",
+        "open-source": "用于安装开源版本U",
+        "nightly": "用于安装预先发布版",
+        "feeds-url": "超控默认更新服务器URL地址",
+        "fw-version": "选择具体固件版本",
+        "backup": "在安装（NAND和配置）之前备份矿机",
+        "no-auto-upgrade": "禁用自动升级（不推荐）",
+        "no-nand-backup": "跳过整个NAND备份（扔在备份配置）",
+        "pool-user": "为SLush Pool矿池设定用户名和矿工名",
+        "psu-power-limit": "设置（以瓦为单位）的电源功率限制",
+        "no-keep-network": "不保留（转移）矿机的原网络配置（在使用DHCP自动分配IP的情况下）",
+        "no-keep-pools": "不保留（转移）矿机的原矿池配置",
+        "no-keep-hostname": "不保留（转移）矿机的原主机名（Hostname）并根据矿机MAC地址生成一个新的",
+        "keep-hostname": "保留矿机用户名",
+        "no-wait": "直到系统完全更新或重启完毕不等待",
+        "dry-run": "执行所有的更新步骤但不实际进行更新",
+        "post-upgrade": "指定stage3.sh脚本文件目录",
+        "bos-mgmt-id": "设定Braiins OS+管家标识符",
+        "password": "矿机密码"
       }
     },
 
 
     "uninstall": {
-      "description": "Uninstall Braiins OS[+] from the miner(s)",
+      "description": "从您的矿机上卸装Braiins OS[+]",
       "label": {
-        "hosts": "Miner(s)",
-        "backup_path": "Backup Path",
-        "password": "Password",
-        "default": "Default stock firmware",
-        "feeds-url": "Custom Feeds-URL",
-        "nand-restore": "Restore previous NAND backup (not recommended)"
+        "hosts": "矿工",
+        "backup_path": "备份路径",
+        "password": "密码",
+        "default": "默认原厂固件",
+        "feeds-url": "自定更新URL地址",
+        "nand-restore": "恢复之前的NAND备份（不推荐）"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "backup_path": "Path to a directory or tgz file with data for miner restore",
-        "password": "Administration password",
-        "default": "Default setting",
-        "feeds-url": "Override default feeds server URL",
-        "nand-restore": "Use full NAND restore from previous backup"
+        "hosts": "矿机用户名（IP地址）或指定矿机主机IP地址列表的文件",
+        "backup_path": "具有用于恢复矿机数据tgz文件或目录的路径",
+        "password": "矿机密码",
+        "default": "默认设置",
+        "feeds-url": "超控默认更新服务器URL地址",
+        "nand-restore": "从之前备份进行整个NAND恢复"
       }
     },
 
 
     "update": {
-      "description": "Update system / system package on miners running Braiins OS[+]",
+      "description": "升级系统 / 运营Braiins OS[+]矿机上的系统包",
       "label": {
-        "hosts": "Miner(s)",
-        "package": "Package",
-        "password": "Password",
-        "ignore": "Ignore non-responsive miners",
-        "bos-mgmt-id": "Farm-ID"
+        "hosts": "矿工",
+        "package": "包",
+        "password": "密码",
+        "ignore": "忽略无响应的矿机",
+        "bos-mgmt-id": "矿场  ID"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "package": "Package name for update (select 'firmware' for firmware update",
-        "password": "Administration password",
-        "ignore": "Do not halt on errors",
-        "bos-mgmt-id": "Update Braiins OS+ Manager identifier"
+        "hosts": "矿机用户名（IP地址）或指定矿机主机IP地址列表的文件",
+        "package": "升级的包名（为固件升级选择'固件'）",
+        "password": "矿机密码",
+        "ignore": "忽略错误",
+        "bos-mgmt-id": "升级Braiins OS+股价标识符"
       }
     },
 
 
     "config": {
-      "description": "Configure mining machines running Braiins OS[+]",
+      "description": "配置运行Braiins OS[+]的矿机",
       "label": {
-        "action": "Action",
-        "table": "List of miners",
-        "user": "Username",
-        "password": "Password",
-        "change-password": "Change Password",
-        "check": "Dry run",
-        "ignore": "Ignore"
+        "action": "操作",
+        "table": "矿机主机IP地址列表",
+        "user": "用户名",
+        "password": "密码",
+        "change-password": "改变密码",
+        "check": "试运行检查",
+        "ignore": "忽略"
       },
       "help": {
-        "action": "Load, Save, Apply or Save & Apply",
-        "table": "Path to table file in CSV format",
-        "user": "Administration username",
-        "password": "Administration password",
-        "change-password": "Allow password change",
-        "check": "Do all configuration steps without applying the configuration",
-        "ignore": "Do not halt on errors"
+        "action": "加载，保存，应用或保存并应用",
+        "table": "CSV表格文件的路径",
+        "user": "矿机名",
+        "password": "矿机密码",
+        "change-password": "允许密码更改",
+        "check": "执行所有的配置步骤但不实际进行配置",
+        "ignore": "忽略错误"
       }
     },
 
 
     "command": {
-      "description": "Run commands on selected miners. Use start/stop/restart for miner control or arbitrary shell commands.",
+      "description": "在所选的矿工上运行命令。使用启用/停止/重启来控制矿机或任意壳层",
       "label": {
-        "hosts": "Miner(s)",
-        "command": "Command",
-        "auto": "Auto-select protocol",
-        "legacy": "Legacy mode",
-        "no-legacy": "No legacy mode",
-        "output": "Show output",
-        "output-hostname": "Show hostname output",
-        "password": "Password",
-        "jobs": "Jobs"
+        "hosts": "矿工",
+        "command": "命令",
+        "auto": "自动选择协议",
+        "legacy": "旧版模式",
+        "no-legacy": "无旧版模式",
+        "output": "显示输出",
+        "output-hostname": "显示矿机用户名输出",
+        "password": "密码",
+        "jobs": "工作"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "command": "Command to run ('start', 'stop', 'restart' or shell command)",
-        "auto": "Use SSH if RPC is not available",
-        "legacy": "Use SSH",
-        "no-legacy": "Use RPC",
-        "output": "Capture and print remote output",
-        "output-hostname": "Capture and print hostname output",
-        "password": "Administration password",
-        "jobs": "Number of concurrent jobs"
+        "hosts": "矿机用户名（IP地址）或指定矿机主机IP地址列表的文件",
+        "command": "运行的命令 ('启动', '停止', '重启' 或壳层命令)",
+        "auto": "如果RPC不可用，使用SSH",
+        "legacy": "使用SSH",
+        "no-legacy": "使用RPC",
+        "output": "捕获并打印远程输出",
+        "output-hostname": "捕获并打印矿机用户名输出",
+        "password": "矿机密码",
+        "jobs": "当前工作数量"
       }
     },
 
 
     "unlock": {
-      "description": "Unlocks SSH access for Antminers S9",
+      "description": "解锁蚂蚁矿机S9的SSH",
       "label": {
-        "hosts": "Miner(s)",
-        "upgrade_path": "Custom upgrade path",
-        "username": "Username",
-        "password": "Password",
-        "port": "Port",
-        "ssl": "Use SSL"
+        "hosts": "矿工",
+        "upgrade_path": "自定义升级路径",
+        "username": "用户名",
+        "password": "密码",
+        "port": "端口",
+        "ssl": "使用SSL"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "upgrade_path": "Custom path to upgrade file with payload for miner unlock",
-        "username": "Username for web interface",
-        "password": "Password for web interface",
-        "port": "Port of antminer web interface to use for unlocking (default - 80)",
-        "ssl": "Check to use SSL protocol"
+        "hosts": "矿机用户名（IP地址）或指定矿机主机IP地址列表的文件",
+        "upgrade_path": "具有负载升级文件自定义路径用于矿机的解锁",
+        "username": "网络界面的用户名",
+        "password": "网络界面的用密码",
+        "port": "用于解锁蚂蚁矿机网络界面的端口（默认 - 80）",
+        "ssl": "检查使用SSL协议"
       }
     },
 
 
     "scan": {
-      "description": "Actively scan provided range of address for mining machines (including machines running factory firmware)",
+      "description": "主动扫描矿机（包含运行原厂固件的矿机）提供的地址范围",
       "label": {
-        "hostname": "IP range",
-        "passwords": "Passwords",
-        "output": "Save output",
-        "jobs": "Jobs",
-        "verbose": "Verbose"
+        "hostname": "IP地址范围",
+        "passwords": "密码",
+        "output": "保存输出",
+        "jobs": "工作",
+        "verbose": "详细程度"
       },
       "help": {
-        "hostname": "Subnet range or IP addresses used for scanning\nUse 10.10.10.0/24 for 10.10.10.0 - 10.10.10.255 range\nUse 10.10.0.0/16 for 10.10.0.0 - 10.10.255.255 range\nUse 10.0.0.0/8 for 10.0.0.0 - 10.255.255.255 range\nUse IP addresses separated with space for scanning only the specified addresses (e.g., 10.10.10.1 10.10.10.2)",
-        "passwords": "Path to file with list of possible passwords for connection",
-        "output": "Save list of found IP addresses to a file",
-        "jobs": "Number of concurrent jobs to scan network",
-        "verbose": "Report networking errors"
+        "hostname": "用于扫描的子网范围或IP地址\nUse 10.10.10.0/24 为 10.10.10.0 - 10.10.10.255 范围\nUse 10.10.0.0/16 为 10.10.0.0 - 10.10.255.255 范围\nUse 10.0.0.0/8 为 10.0.0.0 - 10.255.255.255 范围\nUse IP地址之间用空格隔开，仅用于扫描指定的地址 (例如, 10.10.10.1 10.10.10.2)",
+        "passwords": "可能连接密码的列表的文件路径",
+        "output": "将找到的IP地址列表保存到文件中",
+        "jobs": "扫描网络的当前工作数量",
+        "verbose": "报告网络错误"
       }
     },
 
 
     "listen": {
-      "description": "Listen for incoming broadcast from mining machines (including machines running factory firmware)",
+      "description": "侦听矿机（包括运行原厂固件的机器）的传入广播",
       "label": {
-        "output": "Save output",
-        "format": "Format"
+        "output": "保存输出",
+        "format": "格式"
       },
       "help": {
-        "output": "Save list of found IP addresses to file",
-        "format": "Change default formatting string for device information"
+        "output": "将找到的IP地址列表保存到文件中",
+        "format": "更改设备信息的默认格式字符串" 
       }
     }
   }
