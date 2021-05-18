@@ -207,207 +207,207 @@
   },
   "russian": {
     "cli": {
-      "description": "Provides tools for managing mining devices running Braiins OS[+]",
+      "description": "Инструменты для управления майнерами с Braiins OS[+]",
       "label": {
-        "subcommands": "subcommands",
-        "subcommands_description": "Braiins OS tools in the toolbox"
+        "subcommands": "подкоманды",
+        "subcommands_description": "Braiins OS инструменты в тулбокс"
       },
       "help": {
-        "version": "Show program's version number and exit",
-        "verbose": "Increase output verbosity",
-        "subcommands": "Choose one of the tools and run with --help to retrieve additional info how to use it"
+        "version": "Показать номер версии программы и выйти",
+        "verbose": "Повышение детализации вывода",
+        "subcommands": "Выберите один из инструментов и запустите с --help, чтобы получить дополнительную информацию о том, как его использовать."
       }
     },
 
 
     "install": {
-      "description": "Install Braiins OS[+] onto a mining machine",
+      "description": "Установить Braiins OS[+] на майнер",
       "label": {
-        "hosts": "Miner(s)",
-        "default": "Latest Stable release (recommended)",
-        "open-source": "Open-Source version (without auto-tuning)",
-        "nightly": "Nightly version",
-        "feeds-url": "Custom Feeds-URL",
-        "fw-version": "Firmware version",
-        "backup": "Backup",
-        "no-auto-upgrade": "No Auto-Upgrade",
-        "no-nand-backup": "No NAND-backup",
-        "pool-user": "Set Pool user",
-        "psu-power-limit": "Set Power limit",
-        "no-keep-network": "Don't migrate network settings",
-        "no-keep-pools": "Don't migrate pools settings",
-        "no-keep-hostname": "Don't keep hostname",
-        "keep-hostname": "Keep hostname",
-        "no-wait": "No wait",
-        "dry-run": "Dry run",
+        "hosts": "Майнер(ы)",
+        "default": "Последний стабильный выпуск (рекомендуется)",
+        "open-source": "Версия с открытым исходным кодом (без автонастройки)",
+        "nightly": "Nightly версия",
+        "feeds-url": "Кастом Feeds-URL",
+        "fw-version": "Версия прошивки",
+        "backup": "Бэкап",
+        "no-auto-upgrade": "Без авто-обновления",
+        "no-nand-backup": "Без NAND-бэкапа",
+        "pool-user": "Установить пул пользователя",
+        "psu-power-limit": "Установить Предел мощности",
+        "no-keep-network": "Не переносить настройки сети",
+        "no-keep-pools": "Не переносить настройки пулов",
+        "no-keep-hostname": "Не сохранять имя хоста",
+        "keep-hostname": "Сохранить имя хоста",
+        "no-wait": "Не ждать",
+        "dry-run": "Пробный прогон",
         "post-upgrade": "Post-upgrade",
         "bos-mgmt-id": "Farm-ID",
-        "password": "Password"
+        "password": "Пароль"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "default": "Default setting",
-        "open-source": "Use for installation of the Open-Source version",
-        "nightly": "Use for installation of the Nightly version",
-        "feeds-url": "Override default feeds server URL",
-        "fw-version": "Select specific firmware version",
-        "backup": "Backup miner before the installation (NAND and configuration)",
-        "no-auto-upgrade": "Turn off Auto-Upgrade (not recommended)",
-        "no-nand-backup": "Skip full NAND backup (config is still being backed up)",
-        "pool-user": "Set the username and workername for Slush Pool",
-        "psu-power-limit": "Set PSU power limit (in Watts)",
-        "no-keep-network": "Do not keep miner network configuration (use DHCP)",
-        "no-keep-pools": "Do not keep miner pool configuration",
-        "no-keep-hostname": "Do not keep miner hostname and generate new one based on MAC",
-        "keep-hostname": "Keep miner hostname",
-        "no-wait": "Do not wait until system is fully upgraded and rebooted",
-        "dry-run": "Do all upgrade steps without the actual upgrade",
-        "post-upgrade": "Path to directory with stage3.sh script",
-        "bos-mgmt-id": "Set Braiins OS+ Manager identifier",
-        "password": "Administration password"
+        "hosts": "Имя хоста (IP-адрес) или путь к файлу со списком майнеров",
+        "default": "Настройки по умолчанию",
+        "open-source": "Используйте для установки версии с открытым исходным кодом",
+        "nightly": "Используйте для установки Nightly версии",
+        "feeds-url": "Переопределить URL-адрес сервера каналов по умолчанию",
+        "fw-version": "Выберите конкретную версию прошивки",
+        "backup": "Бэкап майнера перед установкой (NAND и настройка)",
+        "no-auto-upgrade": "Отключить авто-обновление (не рекомендуется)",
+        "no-nand-backup": "Пропустить полное резервное копирование NAND (конфигурация все еще копируется)",
+        "pool-user": "Задайте имя пользователя и имя воркера для Slush Pool",
+        "psu-power-limit": "Установить ограничение мощности блока питания (в ваттах)",
+        "no-keep-network": "Не сохранять конфигурацию сети майнера (использовать DHCP)",
+        "no-keep-pools": "Не сохранять конфигурацию пула",
+        "no-keep-hostname": "Не сохранять имя хоста майнера и генерировать новое на основе MAC",
+        "keep-hostname": "Сохранить имя хоста майнера",
+        "no-wait": "Не ждать, пока система полностью обновится и перезагрузится",
+        "dry-run": "Выполнить все шаги без фактического обновления",
+        "post-upgrade": "Путь к каталогу со скриптом stage3.sh",
+        "bos-mgmt-id": "Установить Braiins OS+ идентификатор Менеджера",
+        "password": "Пароль администратора"
       }
     },
 
 
     "uninstall": {
-      "description": "Uninstall Braiins OS[+] from the miner(s)",
+      "description": "Удалить Braiins OS[+] с майнер(ов)",
       "label": {
-        "hosts": "Miner(s)",
-        "backup_path": "Backup Path",
-        "password": "Password",
-        "default": "Default stock firmware",
-        "feeds-url": "Custom Feeds-URL",
-        "nand-restore": "Restore previous NAND backup (not recommended)"
+        "hosts": "Майнер(ы)",
+        "backup_path": "Путь к бэкапу",
+        "password": "Пароль",
+        "default": "Стандартная прошивка по умолчанию",
+        "feeds-url": "Кастом Feeds-URL",
+        "nand-restore": "Восстановить предыдущую резервную копию NAND (не рекомендуется)"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "backup_path": "Path to a directory or tgz file with data for miner restore",
-        "password": "Administration password",
-        "default": "Default setting",
+        "hosts": "Имя хоста (IP-адрес) или путь к файлу со списком майнеров",
+        "backup_path": "Путь к директории или tgz-файлу с данными для восстановления майнера",
+        "password": "Пароль администратора",
+        "default": "Настройки по умолчанию",
         "feeds-url": "Override default feeds server URL",
-        "nand-restore": "Use full NAND restore from previous backup"
+        "nand-restore": "Использовать полное восстановление NAND из предыдущей резервной копии"
       }
     },
 
 
     "update": {
-      "description": "Update system / system package on miners running Braiins OS[+]",
+      "description": "Обновить систему / системный пакет на майнерах Braiins OS[+]",
       "label": {
-        "hosts": "Miner(s)",
-        "package": "Package",
-        "password": "Password",
-        "ignore": "Ignore non-responsive miners",
+        "hosts": "Майнер(ы)",
+        "package": "Пакет",
+        "password": "Пароль",
+        "ignore": "Игнорировать невосприимчивых майнеров",
         "bos-mgmt-id": "Farm-ID"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "package": "Package name for update (select 'firmware' for firmware update",
-        "password": "Administration password",
-        "ignore": "Do not halt on errors",
-        "bos-mgmt-id": "Update Braiins OS+ Manager identifier"
+        "hosts": "Имя хоста (IP-адрес) или путь к файлу со списком майнеров",
+        "package": "Название пакета для обновления (выберите 'firmware' ('прошивка') для обновления прошивки)",
+        "password": "Пароль администратора",
+        "ignore": "Не останавливаться на ошибках",
+        "bos-mgmt-id": "Обновить Braiins OS+ идентификатор Менеджера"
       }
     },
 
 
     "config": {
-      "description": "Configure mining machines running Braiins OS[+]",
+      "description": "Настроить майнеры Braiins OS[+]",
       "label": {
-        "action": "Action",
-        "table": "List of miners",
-        "user": "Username",
-        "password": "Password",
-        "change-password": "Change Password",
-        "check": "Dry run",
-        "ignore": "Ignore"
+        "action": "Действие",
+        "table": "Список майнеров",
+        "user": "Имя пользователя",
+        "password": "Пароль",
+        "change-password": "Изменить пароль",
+        "check": "Пробный прогон",
+        "ignore": "Игнорировать"
       },
       "help": {
-        "action": "Load, Save, Apply or Save & Apply",
-        "table": "Path to table file in CSV format",
-        "user": "Administration username",
-        "password": "Administration password",
-        "change-password": "Allow password change",
-        "check": "Do all configuration steps without applying the configuration",
-        "ignore": "Do not halt on errors"
+        "action": "Загрузить, Сохранить, Применить или Сохранить и применить",
+        "table": "Путь к файлу таблицы в формате CSV",
+        "user": "Имя пользователя администратора",
+        "password": "Пароль администратора",
+        "change-password": "Разрешить смену пароля",
+        "check": "Выполните все шаги настройки без применения конфигурации",
+        "ignore": "Не останавливаться на ошибках"
       }
     },
 
 
     "command": {
-      "description": "Run commands on selected miners. Use start/stop/restart for miner control or arbitrary shell commands.",
+      "description": "Запускать команды на выбранных майнерах. Используйте start / stop / restart для управления майнером или произвольных shell команд.",
       "label": {
-        "hosts": "Miner(s)",
-        "command": "Command",
-        "auto": "Auto-select protocol",
-        "legacy": "Legacy mode",
-        "no-legacy": "No legacy mode",
-        "output": "Show output",
-        "output-hostname": "Show hostname output",
-        "password": "Password",
+        "hosts": "Майнер(ы)",
+        "command": "Команда",
+        "auto": "Автоматический выбор протокола",
+        "legacy": "Устаревший режим",
+        "no-legacy": "Нет legacy режима",
+        "output": "Показать вывод",
+        "output-hostname": "Показать вывод имени хоста",
+        "password": "Пароль",
         "jobs": "Jobs"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "command": "Command to run ('start', 'stop', 'restart' or shell command)",
-        "auto": "Use SSH if RPC is not available",
-        "legacy": "Use SSH",
-        "no-legacy": "Use RPC",
-        "output": "Capture and print remote output",
-        "output-hostname": "Capture and print hostname output",
-        "password": "Administration password",
-        "jobs": "Number of concurrent jobs"
+        "hosts": "Имя хоста (IP-адрес) или путь к файлу со списком майнеров",
+        "command": "Команда для запуска ('start', 'stop', 'restart' или команда shell)",
+        "auto": "SSH, если RPC недоступен",
+        "legacy": "SSH",
+        "no-legacy": "RPC",
+        "output": "Захват и печать удаленного вывода",
+        "output-hostname": "Захват и печать вывода имени хоста",
+        "password": "Пароль администратора",
+        "jobs": "Количество одновременных jobs"
       }
     },
 
 
     "unlock": {
-      "description": "Unlocks SSH access for Antminers S9",
+      "description": "Разблокирует доступ по SSH для Antminers S9",
       "label": {
-        "hosts": "Miner(s)",
-        "upgrade_path": "Custom upgrade path",
-        "username": "Username",
-        "password": "Password",
-        "port": "Port",
-        "ssl": "Use SSL"
+        "hosts": "Майнер(ы)",
+        "upgrade_path": "Пользовательский путь обновления",
+        "username": "Имя пользователя",
+        "password": "Пароль",
+        "port": "Порт",
+        "ssl": "Использовать SSL"
       },
       "help": {
-        "hosts": "Hostname (IP address) or path to a file with a list of miners",
-        "upgrade_path": "Custom path to upgrade file with payload for miner unlock",
-        "username": "Username for web interface",
-        "password": "Password for web interface",
-        "port": "Port of antminer web interface to use for unlocking (default - 80)",
-        "ssl": "Check to use SSL protocol"
+        "hosts": "Имя хоста (IP-адрес) или путь к файлу со списком майнеров",
+        "upgrade_path": "Пользовательский путь к файлу обновления с полезной нагрузкой для разблокировки майнера",
+        "username": "Имя пользователя для веб-интерфейса",
+        "password": "Пароль для веб-интерфейса",
+        "port": "Порт веб-интерфейса antminer для разблокировки (по умолчанию - 80)",
+        "ssl": "Установите флажок для использования протокола SSL"
       }
     },
 
 
     "scan": {
-      "description": "Actively scan provided range of address for mining machines (including machines running factory firmware)",
+      "description": "Активно сканировать указанный диапазон адресов для майнинговых машин (включая машины с заводской прошивкой)",
       "label": {
-        "hostname": "IP range",
-        "passwords": "Passwords",
-        "output": "Save output",
+        "hostname": "IP диапазон",
+        "passwords": "Пароли",
+        "output": "Сохранить вывод",
         "jobs": "Jobs",
         "verbose": "Verbose"
       },
       "help": {
-        "hostname": "Subnet range or IP addresses used for scanning\nUse 10.10.10.0/24 for 10.10.10.0 - 10.10.10.255 range\nUse 10.10.0.0/16 for 10.10.0.0 - 10.10.255.255 range\nUse 10.0.0.0/8 for 10.0.0.0 - 10.255.255.255 range\nUse IP addresses separated with space for scanning only the specified addresses (e.g., 10.10.10.1 10.10.10.2)",
-        "passwords": "Path to file with list of possible passwords for connection",
-        "output": "Save list of found IP addresses to a file",
-        "jobs": "Number of concurrent jobs to scan network",
-        "verbose": "Report networking errors"
+        "hostname": "Диапазон подсети или IP-адреса, используемые для сканирования\nUse 10.10.10.0/24 для 10.10.10.0 - 10.10.10.255 range\nUse 10.10.0.0/16 для 10.10.0.0 - 10.10.255.255 range\nUse 10.0.0.0/8 для 10.0.0.0 - 10.255.255.255 range\nUse IP-адреса, разделенные пробелом, для сканирования только указанных адресов (например 10.10.10.1 10.10.10.2)",
+        "passwords": "Путь к файлу со списком возможных паролей для подключения",
+        "output": "Сохранить список найденных IP-адресов в файл",
+        "jobs": "Количество одновременных jobs для сканирования сети",
+        "verbose": "Сообщать об ошибках в сети"
       }
     },
 
 
     "listen": {
-      "description": "Listen for incoming broadcast from mining machines (including machines running factory firmware)",
+      "description": "Слушаnm входящую трансляцию от майнинговых машин (включая машины с заводской прошивкой)",
       "label": {
-        "output": "Save output",
-        "format": "Format"
+        "output": "Сохранить вывод",
+        "format": "Формат"
       },
       "help": {
-        "output": "Save list of found IP addresses to file",
-        "format": "Change default formatting string for device information"
+        "output": "Сохранить список найденных IP-адресов в файл",
+        "format": "Изменить строку форматирования по умолчанию для информации об устройстве"
       }
     }
   },
