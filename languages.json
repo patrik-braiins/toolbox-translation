@@ -207,7 +207,7 @@
   },
   "russian": {
     "cli": {
-      "description": "Provides tools for managing mining devices running Braiins OS[+]",
+      "description": "Provides tools for managing mining devices running Braiins OS[]",
       "label": {
         "subcommands": "subcommands",
         "subcommands_description": "Braiins OS tools in the toolbox"
